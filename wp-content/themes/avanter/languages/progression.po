@@ -1,0 +1,769 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: avanter/content-single.php:81
+msgid ""
+msgstr ""
+
+#. Text in function
+#: avanter/inc/template-tags.php:37
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: avanter/inc/template-tags.php:37
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#. Text in function
+#: avanter/comments.php:60
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in function
+#: avanter/inc/template-tags.php:27
+msgid "(Edit)"
+msgstr ""
+
+#. Text in function
+#: avanter/content-single.php:81
+msgid ", "
+msgstr ""
+
+#. Text in function
+#: avanter/content-single.php:63
+#: avanter/content.php:62
+msgid "0"
+msgstr ""
+
+#. Text in function
+#: avanter/image.php:72
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#. Text in function
+#: avanter/image.php:41
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Appearance"
+msgstr ""
+
+#. Text in echo
+#: avanter/archive.php:17
+msgid "Archives"
+msgstr ""
+
+#. Text in echo
+#: avanter/archive.php:17
+msgid "Asides"
+msgstr ""
+
+#. Text in function
+#: avanter/archive.php:17
+msgid "Author: %s"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Background Colors"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Basic"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Body Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Body Default Font Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Button Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Button Hover Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Button Text Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Button Text Hover Color"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose a Main Body Font. Default font is <strong>Helvetica Neue</strong>"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose how long each slide will show (in milliseconds)"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose how many columns you want in the shop (2-4 columns)."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose how many columns you want to use for our footer widgets (1-4 Columns)."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose how many columns you want to use if using child pages on homepage (1-4 Columns)."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose how many many products will show up per page on the shop index."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose how many room posts show per page."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose the custom font used in the theme.  Default font is <strong>Tinos</strong>"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose to display the navigation bullets on the bottom left of the slideshow. "
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose to have your slide show autoplay or not."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose to turn the next/previous buttons on or off. "
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose your copyright text here. "
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose your logo width in pixels.  Default is 377."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Choose your map address for the contact page template map. "
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Columns on Shop"
+msgstr ""
+
+#. Text in echo
+#: avanter/comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in echo
+#: avanter/comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: avanter/content.php:74
+msgid "Continue reading"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Copyright"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Crepe"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Custom CSS Code"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Custom Font"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Custom Javascript Code"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Default Link Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Default Link Hover Color"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Display Comments on Pages"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Display Sidebar on Blog Post pages"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Display Sidebar on Blog, Archives, and Search"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Display Sidebar on Portfolio Post pages"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Display Sidebar on Shop Index"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Display Sidebar on Shop Product Pages"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Dribbble Link"
+msgstr ""
+
+#. Text in function
+#: avanter/inc/template-tags.php:55
+#: avanter/image.php:25
+#: avanter/image.php:72
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Facebook Link"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Fade"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "FavIcon"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Featured Slider Autoplay"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Featured Slider Autoplay Speed"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Featured Slider Next / Previous Buttons"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Featured Slider Thumbnail Navigation Buttons"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Featured Widget Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Flickr Link"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Font Colors"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Footer Base Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Footer Widget Area Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Footer Widget Column Count"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:1
+msgid "Footer Widgets"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Footer/Widget Social Icons"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "French Toast"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Google Link"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Header Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Headings Text Color"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Homepage Child page Column Count"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:1
+msgid "Homepage Content Bottom"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:1
+msgid "Homepage Content Top"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:1
+msgid "Homepage Footer Widgets"
+msgstr ""
+
+#. Text in echo
+#: avanter/archive.php:17
+msgid "Images"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Increase this number to make the navigation taller or shorter.  Use this to ensure the navigation stays the full height of the top bar.  Default is 54."
+msgstr ""
+
+#. Text in echo
+#: avanter/404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below."
+msgstr ""
+
+#. Text in echo
+#: avanter/no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "LinkedIn Link"
+msgstr ""
+
+#. Text in echo
+#: avanter/archive.php:17
+msgid "Links"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Logo"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Logo Width"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Main Body Font"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Map Address on Contact Page"
+msgstr ""
+
+#. Text in echo
+#: avanter/404.php:26
+msgid "Most Used Categories"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Navigation Font Color"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Navigation Height"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Navigation Selected/Hover Font Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Navigation Sub-Menu Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in function
+#: avanter/image.php:42
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Text in function
+#: avanter/no-results.php:16
+msgid "No Results: %s"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Off"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Omelette"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "On"
+msgstr ""
+
+#. Text in echo
+#: avanter/404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:1
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Page Title Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Page Title Font Color"
+msgstr ""
+
+#. Text in function
+#: avanter/content-single.php:81
+#: avanter/content.php:75
+#: avanter/page-contact-full.php:47
+#: avanter/page.php:27
+#: avanter/page-contact.php:48
+#: avanter/image.php:72
+#: avanter/page-full-width.php:22
+msgid "Pages:"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:738
+msgid "Pagination Hover Background Color"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Pancake"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Paste custom JavaScript code here without &lt;script&gt;&lt;s/cript&gt; tags."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Paste custom JavaScript code here without &lt;style&gt;&lt;/style&gt; tags."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Paste your tracking code here e.g. Google Analytics etc... without &lt;script&gt; &lt;/script&gt; tags."
+msgstr ""
+
+#. Text in echo
+#: avanter/inc/template-tags.php:27
+msgid "Pingback:"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Pinterest Link"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Portfolio Posts Per Page"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:1
+msgid "Primary Menu"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Products Per Page on Shop"
+msgstr ""
+
+#. Text in function
+#: avanter/image.php:25
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr ""
+
+#. Text in echo
+#: avanter/archive.php:17
+msgid "Quotes"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "RSS Link"
+msgstr ""
+
+#. Text in function
+#: avanter/no-results.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. Text in echo
+#: avanter/searchform.php:11
+#: avanter/searchform.php:13
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: avanter/searchform.php:12
+msgid "Search &hellip;"
+msgstr ""
+
+#. Text in function
+#: avanter/search.php:14
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Select this checkbox to display the sidebar in the blog pages."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Select this checkbox to display the sidebar in the blog post pages."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Select this checkbox to display the sidebar in the room post pages."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Select this checkbox to display the sidebar on the Shop Index and Product Pages."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Select this checkbox to enable the comments on pages.  Once selected you can also manually enable/disable comments on a page-by-page basis via the Discussion Screen Option."
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:1
+msgid "Shop Sidebar"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Shop/Portfolio"
+msgstr ""
+
+#. Text in function
+#: avanter/functions.php:1
+msgid "Sidebar"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Slide"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Slider"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Social"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Social Icon will display/hide automatically in the header & footer."
+msgstr ""
+
+#. Text in echo
+#: avanter/no-results.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "These icons will display in the footer of your theme (And Social Icons Widget).  Leave the text area blank and the icon will disappear automatically."
+msgstr ""
+
+#. Text in function
+#: avanter/content-single.php:81
+msgid "This entry was posted in %1$s and tagged %2$s."
+msgstr ""
+
+#. Text in function
+#: avanter/content-single.php:81
+msgid "This entry was posted in %1$s."
+msgstr ""
+
+#. Text in function
+#: avanter/content-single.php:81
+msgid "This entry was tagged %2$s."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Tools"
+msgstr ""
+
+#. Text in echo
+#: avanter/image.php:72
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Tracking Code"
+msgstr ""
+
+#. Text in function
+#: avanter/404.php:43
+msgid "Try looking in the monthly archives."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Tumblr Link"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Twitter Link"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Use the upload button to upload your favicon (bookmark icon) and then click <strong>Use this image</strong>."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Use the upload button to upload your sites logo and then click <strong>Use this image</strong>."
+msgstr ""
+
+#. Text in echo
+#: avanter/archive.php:17
+msgid "Videos"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Vimeo Link"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Waffle"
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "WordPress Link"
+msgstr ""
+
+#. Text in echo
+#: avanter/inc/template-tags.php:58
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: avanter/options.php:509
+msgid "Youtube Link"
+msgstr ""

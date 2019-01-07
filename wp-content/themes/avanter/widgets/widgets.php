@@ -1,0 +1,9 @@
+<?php
+get_template_part('widgets/flickr-widget');
+get_template_part('widgets/socialicons-widget');
+get_template_part('widgets/get-in-touch');
+get_template_part('widgets/latest-blog-posts');
+get_template_part('widgets/latest-portfolio-posts');
+get_template_part('widgets/homepage-feature');
+get_template_part('widgets/product-posts');
+?>

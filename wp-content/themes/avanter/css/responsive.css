@@ -1,0 +1,317 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Contents
+==================================================
+01. RETINA STYLES
+02. BASE STYLES (1140px)
+03. #DESKTOP (960px)
+04. #Tablet (Portrait)
+05. #Mobile (Portrait)
+06. #Mobile (Landscape)
+07. TESTING TEXT
+*/
+
+
+
+/*
+=============================================== 01. RETINA STYLES ===============================================
+*/
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+	body nav select {background-image: url(../images/hamburger-retina.gif); background-size:100px 100px;}
+	.flex-direction-nav a {background-image: url(../images/slider/arrows@2x.png); background-size:68px 69px;}
+	.flex-control-paging li a {background-image:url(../images/slider/slider-bullets@2x.png); background-size:20px 85px;}
+	.searchform #s, #searchform #s {background-image: url(../images/search-magnify@2x.png); background-size: 30px 30px; }
+
+	
+	.example-retina {background-image:url(../images/example-retina@2x.png); background-size:20px 85px;}
+	
+}
+@media only screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* IE7-IE8 Fixes*/
+.lt-ie9	nav select {background-image: url(../images/hamburger.gif);}
+.lt-ie9 .flex-direction-nav a {background-image: url(../images/slider/arrows.png); background-size:68px 69px;}
+.lt-ie9 .flex-control-paging li a {background-image:url(../images/slider/slider-bullets.png); background-size:20px 85px;}
+.lt-ie9	.searchform #s {background-image: url(../images/search-magnify.png);}
+
+
+
+.lt-ie9 .example-retina {background-image: url(../images/example-retina.png); }
+
+
+}
+
+
+
+
+/*
+=============================================== 02. BASE STYLES (1140px) ===============================================
+*/
+/* Note: Design for a width of 1040px */
+body:after {content: "Wider than 1140px";background-color: hsla(270,60%,40%,0.7);}/* Notify what @media browser is using, Disable above by display:none; */
+html {-webkit-text-size-adjust: none;}	/* Removes webkit font resizing */ 
+body {max-width:100%; width:100%;}
+img {max-width:100%; height: auto; }
+.width-container, .simple-captions .flex-caption .slider-container {-moz-transition: all .2s ease-in-out; -webkit-transition: all .2s ease-in-out; }
+
+
+/*
+=============================================== 03. #DESKTOP (960px) ===============================================
+*/
+/* Note: Design for a width of 960px */
+@media only screen and (min-width: 959px) and (max-width: 1190px) {
+body:after {content: "959px to 1139px";background-color: hsla(270,60%,40%,0.7);}/* Notify what @media browser is using, Disable above by display:none; */ 
+
+
+.width-container, .simple-captions .flex-caption .slider-container {width:930px;} /* Default Width */
+
+
+.sf-menu a { padding-left:4px; padding-right:4px;}
+#featured-avanter {font-size:20px;}
+a#featured-avanter-button { font-size:15px; }
+
+.simple-captions .flex-caption .slider-container {top:100px; }
+.simple-captions .flex-caption h5 { font-size:50px; }
+
+}
+
+
+
+/*
+=============================================== 04. #Tablet (Portrait) ===============================================
+*/
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+body:after {content: "768 to 959px";background-color: hsla(270,60%,40%,0.7);}/* Notify what @media browser is using, Disable above by display:none; */ 
+
+/* Default Width */
+.width-container, .simple-captions .flex-caption .slider-container { width: 728px; }
+
+
+.complex-captions .slider-box {
+	width:290px;
+	font-size:12px;
+	padding:30px 25px 20px 30px;
+}
+
+
+/* Select Menu */
+nav ul { display: none; }  
+nav {padding:27px 0px; 
+	
+	}
+nav select option {background:#fff; }
+nav select { display:block; padding:0px;  border:none; 
+	-webkit-appearance: none; -moz-appearance: normal; appearance: normal;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	width:70px; height:70px;
+	text-indent:-99999px;
+	cursor:pointer;
+	background-color:#ccc ;
+	background-image: url(../images/hamburger.gif);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:1px solid #e9e9e9;
+	font-family:"Helvetica Neue", Helvetica, Arial, Sans-Serif !important;
+	font-weight:normal !important;
+}
+
+
+h1 {font-size:33px;}
+h1.product_title {font-size:24px;}
+h2 {font-size:30px; }
+.panel h2, .related.products h2 {font-size:22px; }
+h3 {font-size:24px; }
+#main .width-container #content ul.products li h3 {font-size:16px; }
+h4 {font-size:22px; ;}
+h5 {font-size:18px; }
+body .flex-caption h5 {font-size:14px; margin-bottom:13px;}
+.simple-captions .flex-caption .slider-container {top:70px; }
+.simple-captions .flex-caption h5 { font-size:40px; }
+body.error404 h2.widgettitle {font-size:22px;}
+#sidebar h5 { font-size:13px;}
+h6 {font-size:11px; }
+.home-child-boxes-container h6 { font-size:16px; }
+
+.portfolio-index .progression-button {
+	padding:16px 20px;
+	font-size:13px;
+}
+
+.pagination-portfolio a {
+	font-size:14px;
+}
+.pagination-portfolio .grid2column a:before, .pagination-portfolio .grid2column.lastcolumn a:after {font-size:25px;}
+
+#featured-avanter {font-size:16px;}
+a#featured-avanter-button { font-size:12px;  padding:35px 25px 35px 25px; }
+
+
+#contact-base-avanter { font-size:22px; }
+#twitter-avanter { font-size:22px; }
+
+}
+
+
+
+/*
+=============================================== 05. #Mobile (Portrait) ===============================================
+*/
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+body:after {content: "0 to 480px"; background-color: hsla(90,60%,40%,0.7);}/* Notify what @media browser is using, Disable above by display:none; */ 
+
+
+/* Default Width */
+.width-container, .simple-captions .flex-caption .slider-container { width: 300px; }
+
+
+/* Default Grid */
+body #main .width-container li.product.column-2, body #main .width-container li.product.column-3, body #main .width-container li.product.column-4, .lt-ie8 body #main .width-container li.product.column-2, .lt-ie8 body #main .width-container li.product.column-3, .lt-ie8 body #main .width-container li.product.column-4,
+#footer-widgets .footer-2-column .widget, #footer-widgets .footer-3-column .widget, #footer-widgets .footer-4-column .widget,
+footer #copyright, footer ul#footer-nav-sensica, #content-container, #sidebar, .grid2column, .grid3column, .grid3columnbig, .grid4column, .grid4columnbig {width:100%; margin-bottom:15px;}
+#footer-widgets .widget {margin-bottom:10px; margin-top:20px;}
+form.checkout .col-1, form.checkout .col-2 {width:100% !important; margin-bottom:15px;}
+.grid2column, .grid3column, .grid3columnbig, .grid4column, .grid4columnbig {width:100%; margin-bottom:15px;}
+
+/* Misc Fixes */
+.type-post .grid2column {width:100%; margin-bottom:0px; float:none;}
+.avanter-post-meta { text-align:center; margin-bottom:15px;}
+.complex-captions .flex-caption {margin-top:35px;}
+.complex-captions .flex-caption .slider-container {position: absolute;   top:-80px;  z-index:4;}
+.complex-captions .slider-box {
+	width:200px;
+	font-size:10px;
+	padding:16px 15px 8px 16px;
+}
+.complex-captions .slider-box p {margin-bottom:8px;}
+
+/* Select Menu */
+nav ul { display: none; }  
+h1#logo {z-index:55; position:relative; float:none;}
+nav {margin-bottom:15px; float:none;}
+nav select option { background:#fff; color:#888;}
+nav select { 
+	text-align:center; 
+	margin:0 auto;
+	display:block; padding:0px;  border:none; 
+	-webkit-appearance: none; -moz-appearance: normal; appearance: normal;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	width:70px; height:70px;
+	text-indent:-99999px;
+	cursor:pointer;
+	background-color:#ccc ;
+	background-image: url(../images/hamburger.gif);
+	background-position: center center;
+	background-repeat:no-repeat;
+	border:1px solid #e9e9e9;
+	font-family:"Helvetica Neue", Helvetica, Arial, Sans-Serif !important;
+	font-weight:normal !important;
+}
+
+
+/* Checkout + Cart Styling */
+table.cart th.product-remove,  table.cart td.product-remove, table.cart td.product-thumbnail, table.cart th.product-thumbnail,
+table.cart th.product-price, table.cart td.product-price
+ {display:none !important;}
+body #main p.woocommerce-result-count {text-align:center ; float:none; padding-bottom:0px;}
+body #main form.woocommerce-ordering {float:none; text-align:center;}
+body #main form.woocommerce-ordering select {margin:0 auto;}
+
+
+
+.commentlist {width:95%; left:-10px;}
+.commentlist .children li.comment .comment-meta {margin-left:0px;}
+.commentlist .avatar, .commentlist > li:before {display:none;}
+
+/* prettyPhoto styling for small screens */
+.pp_pic_holder.pp_default { width: 100%!important; left: 0!important; overflow: hidden; }
+div.pp_default .pp_content_container .pp_left { padding-left: 0!important; }
+div.pp_default .pp_content_container .pp_right { padding-right: 0!important; }
+.pp_content { width: 100%!important; height: auto!important; }
+.pp_fade { width: 100%!important; height: 100%!important; }
+a.pp_expand, a.pp_contract, .pp_hoverContainer, .pp_gallery, .pp_top, .pp_bottom { display: none!important; }
+#pp_full_res img { width: 100%!important; height: auto!important; }
+.pp_details { width: 94%!important; padding-left: 3%; padding-right: 4%; padding-top: 10px; padding-bottom: 10px; background-color: #fff; margin-top: -2px!important; }
+a.pp_close { right: 10px!important; top: 10px!important; }
+
+
+h1 {font-size:26px;}
+h1.product_title {font-size:18px;}
+h2 {font-size:20px; }
+.panel h2, .related.products h2 {font-size:16px; }
+h3 {font-size:22px; }
+#main .width-container #content ul.products li h3 {font-size:14px; }
+h4 {font-size:18px; ;}
+h5 {font-size:15px; }
+body .flex-caption h5 {font-size:11px; margin-bottom:5px;}
+.simple-captions .flex-caption .slider-container {top:30px; }
+.simple-captions .flex-caption h5 { font-size:20px; }
+body.error404 h2.widgettitle {font-size:18px;}
+#sidebar h5 { font-size:12px;}
+h6 {font-size:10px; }
+.home-child-boxes-container h6 { font-size:13px; }
+
+.portfolio-index .progression-button {
+	padding:12px 18px;
+	font-size:12px;
+}
+
+.pagination-portfolio a {
+	font-size:10px;
+	padding:10px 10px;
+
+}
+.pagination-portfolio .grid2column a:before, .pagination-portfolio .grid2column.lastcolumn a:after {font-size:20px;}
+.pagination-portfolio .genericon {display:none;}
+
+
+#featured-avanter {font-size:12px;}
+a#featured-avanter-button { font-size:10px;  padding:20px 15px 20px 15px; }
+#featured-avanter-container {padding-left:20px;  float:left;}
+
+
+#contact-base-avanter { font-size:16px; }
+#twitter-avanter { font-size:16px; }
+
+
+}
+
+
+/*
+=============================================== 06. #Mobile (Landscape) ===============================================
+*/
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+body:after { content: "480 to 767px"; background-color: hsla(150,50%,40%,0.7);}/* Notify what @media browser is using, Disable above by display:none; */
+
+/* Default Width */
+.width-container, .simple-captions .flex-caption .slider-container { width: 420px; }
+
+
+
+}
+
+
+
+/*
+=============================================== 07. TESTING TEXT ===============================================
+*/
+body:after {position:relative; z-index:55; content: "less than 320px";font-size: 300%;font-weight: bold;position: fixed;bottom: 60px;width: 100%;text-align: center;background-color: hsla(1,60%,40%,0.7);color: #fff;
+display:none !important; /* -------------------- ADD OR REMOVE display:none !important; to display testing text -------------------- */}
+

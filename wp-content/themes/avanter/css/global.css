@@ -1,0 +1,7 @@
+.posted_in{
+    display: block !important;
+}
+
+.woocommerce ul.products li.product h3 {
+    font-size: 28px !important;
+}

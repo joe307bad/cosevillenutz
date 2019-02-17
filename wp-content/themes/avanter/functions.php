@@ -5,6 +5,8 @@
  * @package progression
  * @since progression 1.0
  */
+add_filter( 'woocommerce_is_purchasable','__return_false',10,2);
+
 
 
 // Post Thumbnails
